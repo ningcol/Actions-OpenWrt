@@ -14,7 +14,10 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #sed -i '$a src-git hwfuture https://github.com/hongweifuture/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git pwdep https://github.com/hongweifuture/pwdep.git' feeds.conf.default
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages'
+sed -i '$a src-git small https://github.com/kenzok8/small'
 sed -i '$a src-git dockerman https://github.com/lisaac/luci-app-dockerman.git'
+sed -i '$a src-git unblockneteasemusic https://github.com/immortalwrt/luci-app-unblockneteasemusic.git'
 
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
