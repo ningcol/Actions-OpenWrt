@@ -47,7 +47,7 @@ jobs:
       run: |
         df -hT $PWD
         set +e
-        docker images -q
+        docker images
         docker rmi `docker images -q`
         echo "Deleting files, please wait ..."
         sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc
