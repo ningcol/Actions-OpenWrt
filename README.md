@@ -11,7 +11,6 @@ Default Web Admin IP: 192.168.2.1, username root, username password.
 
 ## Themes
  - argon=y
- - argon-mod=y
  - argone=y
  - atmaterial_new=y
  - bootstrap=y
