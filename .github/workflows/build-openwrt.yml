@@ -72,6 +72,7 @@ jobs:
         unzip master.zip
         cp -r OpenClash-master/luci-app-openclash openwrt/package
         cd openwrt/package && ls -la
+        cd luci-app-openclash && ls -la
 
     - name: Load custom feeds
       run: |
