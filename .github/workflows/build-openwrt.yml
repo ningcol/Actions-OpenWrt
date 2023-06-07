@@ -67,9 +67,11 @@ jobs:
     # 配置 openClash
     - name: OpenClash
       run: |
+        pwd
         wget https://github.com/vernesong/OpenClash/archive/master.zip
         unzip master.zip
         cp -r OpenClash-master/luci-app-openclash openwrt/package
+        cd openwrt/package && ls -la
 
     - name: Load custom feeds
       run: |
